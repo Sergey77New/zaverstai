@@ -1,0 +1,141 @@
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+    background-color: #F9EAE1;
+    color: #533738;
+    font-size: 18px;
+    line-height: 30px;
+}
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/* =============header=================*/
+.menu a {
+    font-size: 16px;
+    line-height: 19.5px;
+    text-decoration: none;
+    color: #533738;
+}
+
+/*==============promo===================*/
+.promo {
+    width: 1400px;
+    height: 715px;
+    background-image: url(images/bg-promo.jpg);
+
+}
+.promo__title {
+    font-size: 50px;
+    line-height: 62px;
+    font-weight: 400;
+}
+.promo__button {
+    font-size: 20px;
+    line-height: 24.38px;
+    font-weight: 500;
+    background-color: #CC8B86;
+    color: #533738;
+    text-decoration: none;
+}
+
+/*============= about-us================= */
+
+.about-us__stat {
+    background-color: #8D7370;
+    color: #FFFFFF;
+}
+.about-us__stat-item {
+    font-size: 50px;
+    line-height: 62px;
+    text-transform: uppercase;
+}
+.about-us__stat-item span{
+    font-size: 30px;
+    line-height: 36.57px;
+    font-weight: 500;
+}
+
+/*============ works============ */
+
+.works__info {
+    color: #FFFFFF;
+    background-color: rgba(100,72,69,0.8);
+}
+.works__title {
+    font-size: 30px;
+    line-height: 36.57px;
+    font-weight: 500; 
+}
+.works__nav span {
+    font-size: 30px;
+    line-height: 36.57px;
+    font-weight: 500;  
+}
+/* ===============team================== */
+.team {
+    background-color: #E2C4BA;
+}
+/* ===============process=============== */
+.process {
+    background-color: #E2C4BA;
+}
+.process__list {
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.process__item  p {
+    color: #533738; 
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+/* ============revies============== */
+.revies cite {
+    font-style: normal;
+}
+.revies__btn {
+    background-color: #CC8B86;
+    border: none;
+    border-radius: 50%;
+}
+.revies__btn img {
+    padding: 36px 20px;
+}
+
+
+/* ============requst ===============*/
+
+.requst {
+    background-color: #533738;
+    color: #FFFFFF;
+}
+.requst p {
+    opacity: 0.6;
+}
+.requst__name {
+    color: #F6EDE9;
+    background-color: #533738;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+.requst__tel {
+    color: #F6EDE9;
+    background-color: #533738;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+.requst__btn {
+    font-size: 20px;
+    line-height: 24.38px;
+    font-weight: 500;
+    background-color: #CC8B86;
+    padding: 25px 65px;
+    border: none;
+}
+

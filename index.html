@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Марафон "Заверстаю 5.0"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <header>
-    <nav>
-        <a> <img src="images/Logo.png" alt="Логотип">SCANDI</a>
+    <nav class="menu">
+        <a href="#"> <img src="images/Logo.png" alt="Логотип">SCANDI</a>
         <ul>
             <li><a href="#">О компании</a></li>
             <li><a href="#">Портфолио</a></li>
@@ -22,25 +27,25 @@
 </header>    
 <main>
     <section class="promo">
-        <h1>
+        <h1 class="promo__title">
             Поможем сделать 
             вашу квартиру 
             уютнее
         </h1>
-        <p>
+        <p class="promo__text">
             Подбираем текстиль, мебель и аксессуары
             под ваш интерьер, находим магазины
             и помогаем организовать доставку 
         </p>
-        <a href="#">Оставить заявку</a>
+        <a class="promo__button" href="#">Оставить заявку</a>
     </section>
 
     <section class="about-us">
-        <div>
+        <div class="about-us__photo">
             <img src="Images/table-setting.png" alt="Сервировка стола" width="444.54" height="572.39">
         </div>
-        <h2>О нас</h2>
-        <div>
+        <h2 class="about-us__title">О нас</h2>
+        <div class="about-us__text">
             <p>
                 Премиальный европейский текстиль — одно из самых 
                 главных направлений работы коллектива. Создавать 
@@ -53,16 +58,16 @@
                 дома!»
             </p>
         </div>
-        <div>
+        <div class="about-us__stat">
             <ul>
-                <li>
-                    <div>5 Лет опыта</div>
+                <li class="about-us__stat-item">
+                    <div>5 <span>Лет опыта</span></div>
                 </li>
-                <li>
-                    <div>100 проектов</div>
+                <li class="about-us__stat-item">
+                    <div>100 <span>проектов</span></div>
                 </li>
-                <li>
-                    <div>10 наград</div>
+                <li class="about-us__stat-item">
+                    <div>10 <span>наград</span></div>
                 </li>
             </ul>
         </div>
@@ -72,18 +77,18 @@
         <h2>Наши работы</h2>
         <ul>
             <li>
-                <div>
-                    <a href="#"> <img src="images/bedroom.jpg" alt="Спальня" width="495" height="655"> </a>
-                </div>
-                <div>
-                    <p>
+                <div class="works__info">
+                    <p class="works__title">
                         Квартира-студия
                         30 кв.м.
                     </p>
-                    <p>
+                    <p class="works__text">
                         В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
                         на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
                     </p>
+                </div>
+                <div>
+                    <a href="#"> <img src="images/bedroom.jpg" alt="Спальня" width="495" height="655"> </a>
                 </div>
                 <div>
                     <a href="#"> <img src="images/dining-room.jpg" alt="Столовая" width="495" height="655"> </a>
@@ -96,7 +101,7 @@
                 </div>
             </li>
         </ul>
-        <div>
+        <div class="works__nav">
             <span>Смотреть ещё </span>
             <button type="button"> <img src="images/Arrow.svg" alt="Next"></button>
         </div>
@@ -140,23 +145,23 @@
     </section>
     <section class="process">
         <h2>Как мы работаем</h2>
-        <ol>
-            <li>
+        <ol class="process__list">
+            <li class="process__item">
                 <p>Знакомимся, выезжаем
                     на объект, утверждаем концепцию, подписываем договор.
                 </p>
             </li>
-            <li>
+            <li class="process__item">
                 <p>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
                     визуализацию.
                 </p>
             </li>
-            <li>
+            <li class="process__item">
                 <p>Находим нужные магазины, помогаем с доставкой
                     и оплатой товаров.
                 </p>
             </li>
-            <li>
+            <li class="process__item">
                 <p>Воплощаем проект в жизнь:
                     расставляем мебель и цветы, вешаем шторы, находим места для мелочей
                 </p>
@@ -193,17 +198,19 @@
                 </article>
             </li>
         </ul>
-        <button><img src="images/Arrow-left.png" alt="previous"></button>
-        <button><img src="images/Arrow-right.png" alt="next"></button>
+        <button class="revies__btn"><img src="images/Arrow-left.png" alt="previous"></button>
+        <button class="revies__btn"><img src="images/Arrow-right.png" alt="next"></button>
     </section>
     <section class="requst">
         <div>
             <h2>Оставить заявку</h2>
-            <p>Оставьте свои контакты. Менеджер перезвонит
-                в удобное вам время и ответит на все вопросы.</p>
-               <input type="text" name="name" placeholder="Ваше имя">
-                <input type="tel" name="tel" placeholder="Введите телефон">
-                <button>Оставить заявку</button>
+            <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.
+            </p>
+            <form class="requst__form" action="">
+                <input class="requst__name" type="text" name="name" placeholder="Ваше имя">
+                <input class="requst__tel" type="tel" name="tel" placeholder="Введите телефон">
+                <button class="requst__btn">Оставить заявку</button>
+            </form>    
         </div>
         <div>
             <img src="images/map.jpg" alt="Карта" width="590" height="624">
